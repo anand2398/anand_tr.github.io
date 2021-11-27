@@ -1,0 +1,836 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+      <!--
+      span.cls_002{font-family:Times,serif;font-size:13.2px;color:rgb(191,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      div.cls_002{font-family:Times,serif;font-size:13.2px;color:rgb(191,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      span.cls_004{font-family:Times,serif;font-size:10.4px;color:rgb(191,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      div.cls_004{font-family:Times,serif;font-size:10.4px;color:rgb(191,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      span.cls_005{font-family:Times,serif;font-size:10.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      div.cls_005{font-family:Times,serif;font-size:10.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      span.cls_003{font-family:Times,serif;font-size:11.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      div.cls_003{font-family:Times,serif;font-size:11.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      span.cls_026{font-family:Times,serif;font-size:10.0px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: underline}
+      div.cls_026{font-family:Times,serif;font-size:10.0px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: none}
+      span.cls_007{font-family:Times,serif;font-size:11.3px;color:rgb(191,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      div.cls_007{font-family:Times,serif;font-size:11.3px;color:rgb(191,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      span.cls_008{font-family:Times,serif;font-size:8.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      div.cls_008{font-family:Times,serif;font-size:8.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      span.cls_009{font-family:Times,serif;font-size:8.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      div.cls_009{font-family:Times,serif;font-size:8.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      span.cls_014{font-family:Times,serif;font-size:10.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      div.cls_014{font-family:Times,serif;font-size:10.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      span.cls_013{font-family:Times,serif;font-size:10.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      div.cls_013{font-family:Times,serif;font-size:10.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      span.cls_017{font-family:Times,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      div.cls_017{font-family:Times,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      span.cls_019{font-family:Arial,serif;font-size:10.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      div.cls_019{font-family:Arial,serif;font-size:10.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      span.cls_020{font-family:Times,serif;font-size:11.3px;color:rgb(191,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      div.cls_020{font-family:Times,serif;font-size:11.3px;color:rgb(191,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      span.cls_022{font-family:Arial,serif;font-size:10.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      div.cls_022{font-family:Arial,serif;font-size:10.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      span.cls_023{font-family:Times,serif;font-size:10.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      div.cls_023{font-family:Times,serif;font-size:10.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      span.cls_024{font-family:Times,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      div.cls_024{font-family:Times,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      span.cls_025{font-family:Times,serif;font-size:6.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      div.cls_025{font-family:Times,serif;font-size:6.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+      -->
+    </style>
+    <script
+      type="text/javascript"
+      src="a4e6ed2c-4f3b-11ec-a980-0cc47a792c0a_id_a4e6ed2c-4f3b-11ec-a980-0cc47a792c0a_files/wz_jsgraphics.js"
+    ></script>
+  </head>
+  <body>
+    <div
+      style="
+        position: absolute;
+        left: 50%;
+        margin-left: -306px;
+        top: 0px;
+        width: 612px;
+        height: 792px;
+        border-style: outset;
+        overflow: hidden;
+      "
+    >
+      <div style="position: absolute; left: 0px; top: 0px">
+        <img
+          src="a4e6ed2c-4f3b-11ec-a980-0cc47a792c0a_id_a4e6ed2c-4f3b-11ec-a980-0cc47a792c0a_files/background1.jpg"
+          width="612"
+          height="792"
+        />
+      </div>
+      <div
+        style="position: absolute; left: 62.76px; top: 44.91px"
+        class="cls_002"
+      >
+        <span class="cls_002">ANAND R THAYUR</span>
+      </div>
+      <div
+        style="position: absolute; left: 403.92px; top: 47.6px"
+        class="cls_004"
+      >
+        <span class="cls_004">Phone: </span
+        ><span class="cls_005">+91 7760178488</span>
+      </div>
+      <div
+        style="position: absolute; left: 403.92px; top: 58.58px"
+        class="cls_004"
+      >
+        <span class="cls_004">Email:</span><span class="cls_003"> </span
+        ><span class="cls_026"> anand.thayur@sap.com</span>
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 122.54px"
+        class="cls_007"
+      >
+        <span class="cls_007">Objective:</span>
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 146.84px"
+        class="cls_005"
+      >
+        <span class="cls_005"
+          >To construct upon, develop and make my professional skills proficient
+          in a profound and active organization that can</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 159.44px"
+        class="cls_005"
+      >
+        <span class="cls_005"
+          >provide me the prospect to develop rationally, adroitly and can
+          flawlessly implement the professional mannerism to</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 170.9px"
+        class="cls_005"
+      >
+        <span class="cls_005">accustom myself round the globe.</span>
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 202.94px"
+        class="cls_007"
+      >
+        <span class="cls_007">Education:</span>
+      </div>
+      <div
+        style="position: absolute; left: 87.24px; top: 226.82px"
+        class="cls_008"
+      >
+        <span class="cls_008">COURSES</span>
+      </div>
+      <div
+        style="position: absolute; left: 173.76px; top: 231.74px"
+        class="cls_008"
+      >
+        <span class="cls_008">INSTITUTION</span>
+      </div>
+      <div
+        style="position: absolute; left: 286.2px; top: 231.74px"
+        class="cls_009"
+      >
+        <span class="cls_009">BOARD</span>
+      </div>
+      <div
+        style="position: absolute; left: 372.96px; top: 231.74px"
+        class="cls_009"
+      >
+        <span class="cls_009">GRADE POINTS</span>
+      </div>
+      <div
+        style="position: absolute; left: 489.24px; top: 231.74px"
+        class="cls_008"
+      >
+        <span class="cls_008">CLASS</span>
+      </div>
+      <div
+        style="position: absolute; left: 92.04px; top: 236.54px"
+        class="cls_009"
+      >
+        <span class="cls_009">[YEAR]</span>
+      </div>
+      <div
+        style="position: absolute; left: 82.56px; top: 263.6px"
+        class="cls_005"
+      >
+        <span class="cls_005">Bachelor of</span>
+      </div>
+      <div
+        style="position: absolute; left: 168.96px; top: 263.6px"
+        class="cls_005"
+      >
+        <span class="cls_005">K.S. Institue Of</span>
+      </div>
+      <div
+        style="position: absolute; left: 273.96px; top: 263.6px"
+        class="cls_014"
+      >
+        <span class="cls_014">Visvesvaraya</span>
+      </div>
+      <div
+        style="position: absolute; left: 466.92px; top: 263.66px"
+        class="cls_013"
+      >
+        <span class="cls_013">First Class With</span>
+      </div>
+      <div
+        style="position: absolute; left: 66.36px; top: 274.7px"
+        class="cls_014"
+      >
+        <span class="cls_014">Engineering (B.E) -</span>
+      </div>
+      <div
+        style="position: absolute; left: 175.68px; top: 274.7px"
+        class="cls_005"
+      >
+        <span class="cls_005">Technology,</span>
+      </div>
+      <div
+        style="position: absolute; left: 271.92px; top: 274.7px"
+        class="cls_005"
+      >
+        <span class="cls_005">Technological</span>
+      </div>
+      <div
+        style="position: absolute; left: 368.76px; top: 275.72px"
+        class="cls_005"
+      >
+        <span class="cls_005">CGPA</span>
+      </div>
+      <div
+        style="position: absolute; left: 424.56px; top: 274.82px"
+        class="cls_005"
+      >
+        <span class="cls_005">8.02</span>
+      </div>
+      <div
+        style="position: absolute; left: 464.88px; top: 280.22px"
+        class="cls_013"
+      >
+        <span class="cls_013">Distinction(FCD)</span>
+      </div>
+      <div
+        style="position: absolute; left: 66px; top: 285.74px"
+        class="cls_005"
+      >
+        <span class="cls_005">Computer Science</span>
+      </div>
+      <div
+        style="position: absolute; left: 180.48px; top: 285.74px"
+        class="cls_005"
+      >
+        <span class="cls_005">Bangalore</span>
+      </div>
+      <div
+        style="position: absolute; left: 258.36px; top: 285.74px"
+        class="cls_005"
+      >
+        <span class="cls_005">University, Belgaum</span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 300.14px"
+        class="cls_005"
+      >
+        <span class="cls_005">Pre University</span>
+      </div>
+      <div
+        style="position: absolute; left: 164.28px; top: 300.14px"
+        class="cls_005"
+      >
+        <span class="cls_005">SKCH Composite</span>
+      </div>
+      <div
+        style="position: absolute; left: 266.28px; top: 300.14px"
+        class="cls_005"
+      >
+        <span class="cls_005">Karnataka Board</span>
+      </div>
+      <div
+        style="position: absolute; left: 390.72px; top: 300.02px"
+        class="cls_017"
+      >
+        <span class="cls_017">88.83</span>
+      </div>
+      <div
+        style="position: absolute; left: 466.92px; top: 300.02px"
+        class="cls_013"
+      >
+        <span class="cls_013">First Class With</span>
+      </div>
+      <div
+        style="position: absolute; left: 70.08px; top: 311.9px"
+        class="cls_014"
+      >
+        <span class="cls_014">Course(Grade 12)</span>
+      </div>
+      <div
+        style="position: absolute; left: 171.84px; top: 311.9px"
+        class="cls_005"
+      >
+        <span class="cls_005">Pre University</span>
+      </div>
+      <div
+        style="position: absolute; left: 478.44px; top: 311.9px"
+        class="cls_005"
+      >
+        <span class="cls_005">Distinction</span>
+      </div>
+      <div
+        style="position: absolute; left: 93px; top: 323.54px"
+        class="cls_005"
+      >
+        <span class="cls_005">[2016]</span>
+      </div>
+      <div
+        style="position: absolute; left: 163.56px; top: 323.54px"
+        class="cls_014"
+      >
+        <span class="cls_014">College,Bangalore</span>
+      </div>
+      <div
+        style="position: absolute; left: 70.32px; top: 357.62px"
+        class="cls_014"
+      >
+        <span class="cls_014">School(Grade 10)</span>
+      </div>
+      <div
+        style="position: absolute; left: 170.04px; top: 357.62px"
+        class="cls_014"
+      >
+        <span class="cls_014">Carmel English</span>
+      </div>
+      <div
+        style="position: absolute; left: 268.56px; top: 357.62px"
+        class="cls_005"
+      >
+        <span class="cls_005">Karnataka State</span>
+      </div>
+      <div
+        style="position: absolute; left: 390.72px; top: 357.62px"
+        class="cls_017"
+      >
+        <span class="cls_017">95.84</span>
+      </div>
+      <div
+        style="position: absolute; left: 466.92px; top: 357.62px"
+        class="cls_013"
+      >
+        <span class="cls_013">First Class With</span>
+      </div>
+      <div
+        style="position: absolute; left: 93px; top: 369.38px"
+        class="cls_005"
+      >
+        <span class="cls_005">[2014]</span>
+      </div>
+      <div
+        style="position: absolute; left: 174.72px; top: 369.38px"
+        class="cls_014"
+      >
+        <span class="cls_014">High School,</span>
+      </div>
+      <div
+        style="position: absolute; left: 258.24px; top: 369.38px"
+        class="cls_005"
+      >
+        <span class="cls_005">secondary Education</span>
+      </div>
+      <div
+        style="position: absolute; left: 478.44px; top: 369.38px"
+        class="cls_005"
+      >
+        <span class="cls_005">Distinction</span>
+      </div>
+      <div
+        style="position: absolute; left: 180.48px; top: 381.02px"
+        class="cls_005"
+      >
+        <span class="cls_005">Bangalore</span>
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 456.74px"
+        class="cls_007"
+      >
+        <span class="cls_007">Technical Skill Set:</span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 480.38px"
+        class="cls_019"
+      >
+        <span class="cls_019"></span><span class="cls_003"> </span
+        ><span class="cls_005"> Programming Languages</span>
+      </div>
+      <div
+        style="position: absolute; left: 231.96px; top: 480.5px"
+        class="cls_005"
+      >
+        <span class="cls_005">: C, Java, Python</span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 494.9px"
+        class="cls_019"
+      >
+        <span class="cls_019"></span><span class="cls_003"> </span
+        ><span class="cls_005"> Operating Systems</span>
+      </div>
+      <div
+        style="position: absolute; left: 231.96px; top: 495.02px"
+        class="cls_005"
+      >
+        <span class="cls_005">: Linux, Windows</span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 509.18px"
+        class="cls_019"
+      >
+        <span class="cls_019"></span><span class="cls_003"> </span
+        ><span class="cls_005"> Coursework</span>
+      </div>
+      <div
+        style="position: absolute; left: 233.88px; top: 510.32px"
+        class="cls_005"
+      >
+        <span class="cls_005"
+          >:Operating Systems, Computer Networks, Design & Analysis Of
+          Algorithms</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 95.88px; top: 523.22px"
+        class="cls_005"
+      >
+        <span class="cls_005"
+          >Database management system, Software Engineering, Cryptography,
+          Network Security & Cyber Law,</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 95.85px; top: 536px"
+        class="cls_005"
+      >
+        <span class="cls_005"
+          >System Software & Compiler Design, Management and entrepreneurship,
+          Automata Theory &</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 95.88px; top: 547.88px"
+        class="cls_005"
+      >
+        <span class="cls_005"
+          >Computability, Discrete Mathematical Structures</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 565.28px"
+        class="cls_019"
+      >
+        <span class="cls_019"></span
+        ><span class="cls_005">
+          Web Technologies : HTML and CSS, JavaScript</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 594.98px"
+        class="cls_007"
+      >
+        <span class="cls_007">Practical Phase I:</span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 620.48px"
+        class="cls_019"
+      >
+        <span class="cls_019"></span
+        ><span class="cls_005"> Team Name: IoT Core Services</span
+        ><span class="cls_019"></span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 632.6px"
+        class="cls_019"
+      >
+        <span class="cls_019"></span
+        ><span class="cls_005"> Manager: Sriram K N</span
+        ><span class="cls_019"></span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 644.72px"
+        class="cls_019"
+      >
+        <span class="cls_019"></span
+        ><span class="cls_005">
+          Team Details: The Core Services team which works on the IoT platform
+          development for Digital Supply</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 93.72px; top: 656.12px"
+        class="cls_005"
+      >
+        <span class="cls_005"
+          >Chain & S4 HANA. The core services team that SAP customers model
+          digital twins for Things/Device by</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 93.72px; top: 667.4px"
+        class="cls_005"
+      >
+        <span class="cls_005">integrating them on Cloud (AWS, Azure).</span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 679.52px"
+        class="cls_019"
+      >
+        <span class="cls_019"></span
+        ><span class="cls_005">
+          My Work: Gained exposure to microservices and API development by
+          working on Thing Model and Abstract</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 93.72px; top: 690.8px"
+        class="cls_005"
+      >
+        <span class="cls_005"
+          >Model applications based on Spring Boot, Jersey and Olingo. Also, I
+          was involved in all the Agile practices</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 93.72px; top: 702.2px"
+        class="cls_005"
+      >
+        <span class="cls_005"
+          >followed by the team in timely delivery of the backlogs. Worked on
+          Java development, regression testing</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 93.72px; top: 713.6px"
+        class="cls_005"
+      >
+        <span class="cls_005"
+          >using JMeter and resolved internal/customer BCPs.</span
+        >
+      </div>
+    </div>
+    <div
+      style="
+        position: absolute;
+        left: 50%;
+        margin-left: -306px;
+        top: 802px;
+        width: 612px;
+        height: 792px;
+        border-style: outset;
+        overflow: hidden;
+      "
+    >
+      <div style="position: absolute; left: 0px; top: 0px">
+        <img
+          src="a4e6ed2c-4f3b-11ec-a980-0cc47a792c0a_id_a4e6ed2c-4f3b-11ec-a980-0cc47a792c0a_files/background2.jpg"
+          width="612"
+          height="792"
+        />
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 57.97px"
+        class="cls_020"
+      >
+        <span class="cls_020">Academic Projects:</span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 83.59px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span
+        ><span class="cls_023">
+          A Database project called park-A-lot: An application that facilitates
+          a smooth parking system for vehicles</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 93.72px; top: 94.99px"
+        class="cls_023"
+      >
+        <span class="cls_023"
+          >in shopping malls, colleges and other public places. This project’s
+          backend is developed mainly using Java,</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 93.72px; top: 106.39px"
+        class="cls_023"
+      >
+        <span class="cls_023"
+          >SQL for database, front end using HTML, CSS and Java Script, Netbeans
+          IDE, MYSQL for DB operations</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 93.72px; top: 117.67px"
+        class="cls_023"
+      >
+        <span class="cls_023">and Tomcat server.</span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 141.07px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span
+        ><span class="cls_023">
+          Assisted Distributed Kernel: As a part of the final year project, I
+          and my team developed a software with the</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 93.72px; top: 152.47px"
+        class="cls_023"
+      >
+        <span class="cls_023"
+          >aim to eliminate the necessity of a data center and make use of the
+          resources available in the company’s</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 93.72px; top: 163.75px"
+        class="cls_023"
+      >
+        <span class="cls_023"
+          >computers that are idle most of the time. We built an interconnected
+          ring P2P architecture in order to connect</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 93.72px; top: 175.15px"
+        class="cls_023"
+      >
+        <span class="cls_023"
+          >the systems based on the availability of resources and
+          requirement.</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 222.85px"
+        class="cls_020"
+      >
+        <span class="cls_020">Activities and Achievements:</span>
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 236.71px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 247.51px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span
+        ><span class="cls_023">
+          Have been certified by VMWare for attending workshop on Virtual
+          Machines & Applications. </span
+        ><span class="cls_022"></span>
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 251.11px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 261.67px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span
+        ><span class="cls_023">
+          Have actively participated in various project exhibitions conducted in
+          college.</span
+        ><span class="cls_022"></span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 274.27px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span>
+      </div>
+      <div
+        style="position: absolute; left: 93.72px; top: 274.27px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span
+        ><span class="cls_023"
+          >ave been actively participating in EngiNX 2019, a national level
+          Digital Eminence Challenge.</span
+        ><span class="cls_022"></span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 286.99px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span>
+      </div>
+      <div
+        style="position: absolute; left: 93.72px; top: 286.99px"
+        class="cls_023"
+      >
+        <span class="cls_023"
+          >Have been certified for attending a workshop on DBMS & SQL.</span
+        ><span class="cls_022"></span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 299.47px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span>
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 336.49px"
+        class="cls_020"
+      >
+        <span class="cls_020">Key Strengths:</span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 359.23px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span
+        ><span class="cls_023">
+          Possess excellent verbal and written communication skills. </span
+        ><span class="cls_022"></span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 371.71px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span
+        ><span class="cls_023"> Quick learner and team worker . </span
+        ><span class="cls_022"></span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 384.43px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span
+        ><span class="cls_023">
+          Possess excellent knowledge in Programming domain . </span
+        ><span class="cls_022"></span>
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 388.15px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 398.83px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span
+        ><span class="cls_023"> Consistent and strong Academic Record . </span
+        ><span class="cls_022"></span>
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 402.67px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span>
+      </div>
+      <div
+        style="position: absolute; left: 76.8px; top: 413.35px"
+        class="cls_022"
+      >
+        <span class="cls_022"></span
+        ><span class="cls_023"> Ability to solve tough problems. </span
+        ><span class="cls_022"></span>
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 467.53px"
+        class="cls_020"
+      >
+        <span class="cls_020">Personal Details:</span>
+      </div>
+      <div
+        style="position: absolute; left: 62.76px; top: 490.69px"
+        class="cls_023"
+      >
+        <span class="cls_023">Date of Birth</span>
+      </div>
+      <div
+        style="position: absolute; left: 147.36px; top: 490.69px"
+        class="cls_024"
+      >
+        <span class="cls_024">: June 23</span
+        ><span class="cls_025"><sup>rd</sup></span
+        ><span class="cls_024"> 1998</span>
+      </div>
+      <div
+        style="position: absolute; left: 62.76px; top: 505.15px"
+        class="cls_023"
+      >
+        <span class="cls_023">Father’s Name</span>
+      </div>
+      <div
+        style="position: absolute; left: 147.19px; top: 504.25px"
+        class="cls_023"
+      >
+        <span class="cls_023">: Raghavendra Rao T N</span>
+      </div>
+      <div
+        style="position: absolute; left: 62.76px; top: 517.93px"
+        class="cls_023"
+      >
+        <span class="cls_023">Postal Address</span>
+      </div>
+      <div
+        style="position: absolute; left: 146.4px; top: 517.93px"
+        class="cls_023"
+      >
+        <span class="cls_023"
+          >: No 1742, 90th Cross, Kumaraswamy Layout 1st Stage, Bangalore -
+          560078</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 62.76px; top: 531.61px"
+        class="cls_023"
+      >
+        <span class="cls_023">Languages Known : English, Kannada, Hindi</span>
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 587.41px"
+        class="cls_020"
+      >
+        <span class="cls_020">Declaration:</span>
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 615.67px"
+        class="cls_023"
+      >
+        <span class="cls_023"
+          >Consequently, I conclude that all the information I have mentioned
+          above is authentic and true to the best of my</span
+        >
+      </div>
+      <div
+        style="position: absolute; left: 59.88px; top: 626.29px"
+        class="cls_023"
+      >
+        <span class="cls_023">knowledge.</span>
+      </div>
+      <div
+        style="position: absolute; left: 432.24px; top: 657.97px"
+        class="cls_023"
+      >
+        <span class="cls_023">Anand R Thayur</span>
+      </div>
+    </div>
+  </body>
+</html>
